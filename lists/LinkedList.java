@@ -75,7 +75,7 @@ class Solution {
         llist.insertNode(3);
 
 
-        SinglyLinkedListNode llist1 = deleteLinkedList.deleteNode(llist.head, 7);
+        SinglyLinkedListNode llist1 = deleteLinkedList.deleteNode(llist.head, 0);
         printLinkedList(llist1);
 
     }
