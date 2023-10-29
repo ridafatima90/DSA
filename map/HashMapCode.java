@@ -21,6 +21,7 @@ public class HashMapCode {
         private LinkedList<Node> buckets[];
 
         public HashMap(){
+
             this.N = 4;
             this.buckets = new LinkedList[4];
             for(int i = 0; i < 4; i++) {
