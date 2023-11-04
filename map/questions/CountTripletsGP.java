@@ -11,6 +11,7 @@ public class CountTripletsGP {
 
         for(long num: arr) {
             if(num % r == 0) {
+
                 count += thirdMap.getOrDefault(num/r, 0L);
 
                 thirdMap.put(num,thirdMap.getOrDefault(num, 0L) + secondMap.getOrDefault(num/r, 0L));
