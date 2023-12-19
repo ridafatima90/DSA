@@ -74,6 +74,8 @@ public class Practise {
         createGraph(graph);
         boolean vis[] = new boolean[V];
 
+        String s = "abc";
+
         for(int i = 0; i < V; i++){
             if(vis[i] == false){
                 dfs(graph, 0, vis);
